@@ -55,7 +55,7 @@ export default function BreakScheduler() {
 
   return (
     <div style={{ padding: "2rem", maxWidth: "800px", margin: "auto" }}>
-      <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>جدول البريكات</h1>
+      <h1 style={{ fontSize: "24px", fontWeight: "bold" }}>BSH Account-جدول البريكات</h1>
       {agents.map((agent, idx) => (
         <div key={idx} style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
           <input

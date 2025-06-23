@@ -60,7 +60,7 @@ export default function BreakScheduler() {
         <div key={idx} style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
           <input
             style={{ flex: 1, padding: "8px" }}
-            placeholder="اسم الـ Agent"
+            placeholder="اسم ـ Agent"
             value={agent.name}
             onChange={(e) => updateAgent(idx, "name", e.target.value)}
           />
@@ -78,7 +78,7 @@ export default function BreakScheduler() {
         + أضف Agent
       </button>
       <button onClick={distributeBreaks} style={{ padding: "8px 12px", backgroundColor: "#1976d2", color: "white" }}>
-        وزّع البريكات
+        وزع البريكات
       </button>
 
       {schedule.length > 0 && (
